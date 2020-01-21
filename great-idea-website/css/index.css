@@ -96,6 +96,18 @@ li:last-child{
 header{
 	margin-top: 60px;
 	padding:50px;
+	text-align: center;
+}
+header div{
+	display:block;
+	float:left;
+	border: red 4px dashed;
+}
+h1{
+	font-size: 350%;
+}
+button{
+	margin: 0 auto;
 }
 
 header img{
