@@ -64,3 +64,41 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+
+ul{
+	background-color: white;
+	position:fixed;
+	top: 0;
+	width:100%;
+	list-style-type: none;
+	display:inline;
+	padding:20px 70px;
+}
+
+li{
+	float: left;
+	display: block;
+	padding: 8px 20px;
+}
+
+li+li{
+	margin-left: 35px;
+}
+li a{
+	text-decoration: none;
+}
+
+li:last-child{
+	float: right;
+}
+
+header{
+	margin-top: 60px;
+	padding:50px;
+}
+
+header img{
+	display:block;
+	float:right
+}
