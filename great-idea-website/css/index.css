@@ -12,8 +12,8 @@ b, u, i, center,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
@@ -24,7 +24,7 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
+article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
@@ -49,68 +49,123 @@ table {
 
 /* Set every element's box-sizing to border-box */
 * {
-    box-sizing: border-box;
+	box-sizing: border-box;
 }
 
 html, body {
-    height: 100%;
-    font-family: 'Titillium Web', sans-serif;
+	height: 100%;
+	font-family: 'Titillium Web', sans-serif;
 }
 
 h1, h2, h3, h4, h5 {
-    font-family: 'Bangers', cursive;
-    letter-spacing: 1px;
-    margin-bottom: 15px;
+	font-family: 'Bangers', cursive;
+	letter-spacing: 1px;
+	margin-bottom: 15px;
 }
-
 /* Your code starts here! */
-
-
-ul{
-	background-color: white;
-	position:fixed;
-	top: 0;
-	width:100%;
-	list-style-type: none;
-	display:inline;
-	padding:20px 70px;
-}
-
-li{
-	float: left;
-	display: block;
-	padding: 8px 20px;
-}
-
-li+li{
-	margin-left: 35px;
-}
-li a{
-	text-decoration: none;
-}
-
-li:last-child{
-	float: right;
-}
-
-header{
-	margin-top: 60px;
-	padding:50px;
-	text-align: center;
-}
-header div{
-	display:block;
-	float:left;
-	border: red 4px dashed;
-}
-h1{
-	font-size: 350%;
-}
-button{
+body{
+	/* border: dashed red 4px; */
+	width: 900px;
 	margin: 0 auto;
 }
+/* nav and logo */
+nav {
+	/* border: dashed red 4px; */
+	display: inline-block;
+    width: 700px;
+	vertical-align: top;
+	margin-top: 25px;
+}
+/* nav style */
+nav a {
+	/* border: dashed red 4px; */
+	color: gray;
+	text-decoration: none;
+	margin-right: 65px;
+	font-size: 14px;
+}
+nav a:first-child {
+	margin-left: 0;
+}
+nav a:last-child {
+	margin-right: 0;
+}
+.logo {
+	margin-top: 25px;
+}
+/*headeer text--------header image */
+header .heading-text {
+	/* border: dashed red 4px; */
+ 	display: inline-block;
+	vertical-align: top;
+	text-align: center;
+	margin-top: 120px;
+	font-size: 80px;
+	padding: 0px 75px;
+}
+header button {
+	/* border: dashed red 4px; */
+	font-size: 17px;
+	background: white;
+	vertical-align: top;
+	margin-top: 5px;
+	padding: 10px 45px;
+	border: 1px solid black;
+}
+header img {
+	display: inline-block;
+	margin-top: 75px;
+}
+/*  top-articls,  img, and bottom-content */
 
-header img{
-	display:block;
-	float:right
+.exposition {
+	/* border: dashed red 4px; */
+	border-top: 1px solid black;
+	margin-top: 76px;
+	padding-top: 39px;
+}
+.exposition . {
+	padding: 0 10px;
+}
+.exposition .midriff article {
+	/* border: dashed red 4px; */
+	width: 410px;
+	display: inline-block;
+	margin-right: 34px;
+}
+.exposition .midriff article:last-child {
+	margin-right: 0;
+}
+.exposition .middle-img {
+	margin-top: 45px;
+}
+.exposition .junior {
+	/* border: dashed red 4px; */
+	margin-top: 37px;
+	padding: 0 10px;
+}
+.exposition .junior article {
+	/* border: dashed red 4px; */
+	width: 275px;
+	display: inline-block;
+	margin-right: 12px;
+}
+.exposition .junior article:last-child {
+	margin-right: 0;
+}
+/* Contact-address paragraph addresses */
+address {
+	/* border: dashed red 4px; */
+	margin-top: 55px;
+	border-top: 1px solid black;
+	padding: 40px 10px 0;
+}
+address p {
+	margin: 20px 0;
+}
+footer {
+	/* border: dashed red 4px; */
+	margin: 32px 0;
+	text-align: center;
+	font-size: 14px;
 }
